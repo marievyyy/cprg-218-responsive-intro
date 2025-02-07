@@ -1,0 +1,23 @@
+* {
+   box-sizing: border-box;
+}
+
+body {
+   background-color: #FAF6E3;
+   color: #3B1C32;
+   transition: all 0.3s ease-in;
+}
+
+@media screen and (max-width: 800px) {
+   body {
+      background-color: #6A1E55;
+      color: #FAF6E3;
+   }
+}
+
+@media screen and (max-width: 400px) {
+   body {
+      background-color: #3B1C32;
+      color: #FAF6E3;
+   }
+}
